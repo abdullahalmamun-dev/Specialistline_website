@@ -17,7 +17,7 @@ export default function Home() {
           <span className="brand-mark">P</span><span>PEACHTREE<br /><b>CAPITAL GROUP</b></span>
         </a>
         <nav aria-label="Main navigation">
-          <a href="#approach">Approach</a><a href="#programs">Programs</a><a href="#about">About</a>
+          <a href="#approach">Approach</a><a href="#programs">Programs</a><a href="#about">About</a><a href="/terms">Terms & Conditions</a><a href="/privacy">Privacy Policy</a>
         </nav>
         <a className="nav-cta" href="#contact">Start a conversation <span>↗</span></a>
       </header>
