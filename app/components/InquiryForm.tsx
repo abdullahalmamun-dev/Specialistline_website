@@ -10,7 +10,10 @@ export default function InquiryForm() {
 
   useEffect(() => {
     if (state?.success) {
-      toast.success(state.message || "Inquiry submitted successfully!");
+      toast.success("We received your query successfully.", {
+        description: "One of our customer opt-in executives will contact you soon.",
+        duration: 6000,
+      });
       formRef.current?.reset();
     } else if (state?.success === false) {
       toast.error(state.error || "Failed to submit inquiry.");
