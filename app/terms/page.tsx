@@ -4,7 +4,7 @@ export default function Terms() {
     <h2>Our role</h2><p>Peachtree Capital Group LLC provides financial consulting and may help businesses identify and pursue capital programs offered by independent third parties. Peachtree is not a lender, does not make credit decisions, and does not guarantee approval, funding, rates, or terms. All capital decisions and final agreements are made by the applicable provider and client.</p>
     <h2>Website use</h2><p>You must be at least 18 years old and may use this website only for lawful purposes. Information on this site is general in nature and is not legal, tax, accounting, or investment advice. You should consult qualified professionals before making financial decisions.</p>
     <h2>Requests and third-party providers</h2><p>When you ask us to explore capital options, you authorize us to use the information you provide to evaluate your request. With your authorization, we may introduce you to independent providers. You are responsible for reviewing any provider and agreement before proceeding. We are not responsible for the acts, omissions, products, or services of independent third parties.</p>
-    <h2 id="sms">Peachtree Capital Updates SMS Program</h2><p>Program name: <b>Peachtree Capital Updates</b>. By checking the SMS consent box on our website or otherwise expressly opting in, you agree to receive recurring marketing and informational text messages from Peachtree Capital Group LLC at the mobile number you provide. Messages may be sent using automated technology. Consent is not a condition of purchasing any goods or services.</p>
+    <h2 id="sms">Peachtree Capital Updates SMS Program</h2><p>Program name: <b>Peachtree Capital Updates</b>. Customers opt in by completing a <a href="/#contact"><u>financing inquiry form</u></a> on the Peachtree Capital Group LLC website. By checking the SMS consent box on our website or otherwise expressly opting in, you agree to receive recurring marketing and informational text messages from Peachtree Capital Group LLC at the mobile number you provide. Messages may be sent using automated technology. Consent is not a condition of purchasing any goods or services.</p>
 
     <h3>The message format may look like as below:</h3>
     <blockquote style={{
@@ -17,23 +17,23 @@ export default function Terms() {
       color: 'var(--dark)'
     }}>
       <p style={{ marginBottom: '15px' }}>
-        [Business name]<br/>
-        [Insert Business description here; this is simply a brief description of the kinds of messages users can expect to receive when they opt in.]
+        Peachtree Capital Group LLC<br/>
+        We provide updates, alerts, and information regarding your inquiries or consultations.
       </p>
       <p style={{ marginBottom: '15px' }}>
-        You can cancel the SMS service at any time. Just text "STOP" to the [Phone Number]. After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us. If you want to join again, just sign up as you did the first time and we will start sending SMS messages to you again.
+        You can cancel the SMS service at any time. Just text "STOP" to (347) 600-8967. After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us. If you want to join again, just sign up as you did the first time and we will start sending SMS messages to you again.
       </p>
       <p style={{ marginBottom: '15px' }}>
-        If you are experiencing issues with the messaging program you can reply with the keyword HELP for more assistance, or you can get help directly at [support email address or toll-free number].
+        If you are experiencing issues with the messaging program you can reply with the keyword HELP for more assistance, or you can get help directly at <a href="mailto:info@peachtree.capital"><u>info@peachtree.capital</u></a>.
       </p>
       <p style={{ marginBottom: '15px' }}>
         Carriers are not liable for delayed or undelivered messages
       </p>
       <p style={{ marginBottom: '15px' }}>
-        As always, message and data rates may apply for any messages sent to you from us and to us from you. You will receive [message frequency]. If you have any questions about your text plan or data plan, it is best to contact your wireless provider.
+        As always, message and data rates may apply for any messages sent to you from us and to us from you. Message frequency varies. If you have any questions about your text plan or data plan, it is best to contact your wireless provider.
       </p>
       <p style={{ marginBottom: '0' }}>
-        If you have any questions regarding privacy, please read our privacy policy: [link to privacy policy]
+        If you have any questions regarding privacy, please read our privacy policy: <a href="/privacy"><u>Privacy Policy</u></a>
       </p>
     </blockquote>
 
