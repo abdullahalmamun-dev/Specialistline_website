@@ -17,7 +17,7 @@ export default function Terms() {
       color: 'var(--dark)'
     }}>
       <p style={{ marginBottom: '15px' }}>
-        Peachtree Capital Group LLC<br/>
+        Peachtree Capital Group LLC<br />
         We provide updates, alerts, and information regarding your inquiries or consultations.
       </p>
       <p style={{ marginBottom: '15px' }}>
