@@ -10,10 +10,40 @@ export default function InquiryForm() {
 
   useEffect(() => {
     if (state?.success) {
-      toast.success("We received your query successfully.", {
-        description: "One of our customer opt-in executives will contact you soon.",
-        duration: 6000,
-      });
+      toast.custom((t) => (
+        <div style={{
+          background: 'var(--dark, #020617)',
+          color: '#fff',
+          padding: '24px',
+          borderRadius: '12px',
+          boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+          borderLeft: '4px solid var(--peach, #f4a261)',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '8px',
+          maxWidth: '400px',
+          fontFamily: 'inherit'
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <div style={{
+              background: 'var(--peach, #f4a261)',
+              color: 'var(--dark, #020617)',
+              borderRadius: '50%',
+              width: '24px',
+              height: '24px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontWeight: 'bold',
+              fontSize: '14px'
+            }}>✓</div>
+            <h3 style={{ margin: 0, fontSize: '16px', fontWeight: 600 }}>We received your query successfully.</h3>
+          </div>
+          <p style={{ margin: 0, fontSize: '14px', color: '#cbd5e1', lineHeight: '1.5', paddingLeft: '34px' }}>
+            One of our customer opt-in executives will contact you soon.
+          </p>
+        </div>
+      ), { duration: 6000 });
       formRef.current?.reset();
     } else if (state?.success === false) {
       toast.error(state.error || "Failed to submit inquiry.");
