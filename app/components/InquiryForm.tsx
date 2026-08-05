@@ -84,7 +84,7 @@ export default function InquiryForm() {
           By checking this box, I agree to receive recurring marketing and
           informational text messages from Peachtree Capital Group LLC. Consent
           is not a condition of purchase. You may receive typically 2-4 promotional message per month. Message frequency may vary, depending on your interaction with Peachtree Capital Group.  Message and
-          data rates may apply. Reply STOP to opt out or HELP for help. View
+          data rates may apply. You may opt out of receiving SMS messages at any time by replying STOP to any message. After opting out, you will no longer receive SMS messages unless you opt in again. Reply HELP for assistance. View
           our <a href="/terms">Terms & Conditions</a> and{" "}
           <a href="/privacy">Privacy Policy</a>.
         </span>
