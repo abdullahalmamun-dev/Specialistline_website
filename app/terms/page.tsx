@@ -44,7 +44,7 @@ export default function Terms() {
 
 
     <h3>Message frequency</h3>
-    <p>You may receive typically 2-4 promotional message per month. Message frequency may vary, depending on your interaction with Peachtree Capital Group. Your wireless carrier’s terms govern charges.</p>
+    <p>You may receive typically 2-4 promotional message per month. Message frequency may vary, depending on your interaction with Peachtree Capital Group.</p>
     <h3>Message & Data Rates</h3>
     <p>
       <b>Message and data rates may apply.</b> Charges for SMS messages are determined by your wireless carrier and your mobile service plan. Peachtree Capital Group is not responsible for any SMS or data charges incurred from your mobile carrier.
