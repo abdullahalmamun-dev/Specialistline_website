@@ -43,10 +43,11 @@ export default function Terms() {
 
 
 
-    <h3>Message frequency and charges</h3><p>Message frequency varies based on your interactions and may include follow-ups, consultation reminders, and service information. <b>Message and data rates may apply.</b> Your wireless carrier’s terms govern charges.</p>
+    <h3>Message frequency</h3>
+    <p>You may receive typically 2-4 promotional message per month. Message frequency may vary, depending on your interaction with Peachtree Capital Group. Your wireless carrier’s terms govern charges.</p>
     <h3>Message & Data Rates</h3>
     <p>
-      Message and data rates may apply. Charges for SMS messages are determined by your wireless carrier and your mobile service plan. Instacall LLC is not responsible for any SMS or data charges incurred from your mobile carrier.
+      <b>Message and data rates may apply.</b> Charges for SMS messages are determined by your wireless carrier and your mobile service plan. Instacall LLC is not responsible for any SMS or data charges incurred from your mobile carrier.
     </p>
     <h3>Opt out</h3><p>Reply <b>STOP</b> to any message to cancel. You may receive one final message confirming your opt-out. After opting out, you will no longer receive messages from the program unless you enroll again.</p>
     <h3>Customer care</h3><p>Reply <b>HELP</b> for help or email customer care at <a href="mailto:info@peachtree.capital"><u>info@peachtree.capital</u></a>. Carriers are not liable for delayed or undelivered messages.</p>
